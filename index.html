@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Roboto+Mono:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/fb42f14242.js" crossorigin="anonymous"></script>
+    <!-- Core CSS (Includes Bootstrap) -->
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body class="text-white">
+
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top bg-dark bg-gradient">
+        <div class="container">
+            <a class="navbar-brand" href="#">JulianRiedinger</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Sobre Mi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Trabajo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="vh-100">
+        <div class="container py-5">
+            <div class="row py-5 align-items-center">
+                <div class="col-md-6 ">
+                    <h1>Hola! Soy <br> <span> Julian Riedinger</span> </h1>
+                    <h3>Frontend Developer</h3>
+                    <p>Soy de Argentina, Bahia Blanca, tengo 20 años de edad y soy apasionado por la tecnología.</p>
+                    <a href="#about" class="btn btn-lg btn-primary rounded-pill">Conocé más!</a>
+                </div>
+                <div class="col-md-6 text-center pt-4 pt-lg-0">
+                    <img src="./images/yo-header.jpeg" alt="Julian Riedinger"
+                        class="img-fluid rounded-circle w-50 h-75">
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <main class="bg-dark bg-gradient">
+        <section class="container">
+            <h2 class="text-center py-5" id="about">Sobre Mí</h2>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="mx-auto pb-4 pb-lg-0">
+                        <img src="./images/certificado-desarrollo-web.png" alt="certificado de desarrollo web"
+                            class="img-fluid ">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <p class="pb-5">Naci en el año 2001, me egresé en la escuela San Francisco de Asís de mi ciudad
+                        Bahía Blanca,
+                        y
+                        actualmente me encuentro formándome como Frontend Developer en la escuela de CoderHouse.</p>
+
+                    <p>Soy una persona que se encuentra aprendiendo en todo momento, y con muchas ganas de
+                        progresar. Me tomo muy en serio mis proyectos e intento dar lo mejor de mí.</p>
+                </div>
+            </div>
+
+            <div class="row pt-5 align-items-center">
+                <div class="col-lg-8 d-lg-flex pt-4 align-items-center text-center">
+                    <h3>Actualmente me encuentro trabajando con las siguientes tecnologias </h3>
+                    <div class=" py-5 d-lg-none">
+                        <img src="./images/down-arrow.png" alt="flecha abajo" class="img-fluid w-25">
+                    </div>
+                    <div class="d-none d-lg-block"><img src="./images/right-arrow.png" alt="flecha derecha"
+                            class="w-75 img-fluid"> </div>
+
+                </div>
+                <div class="col-lg-4 text-center">
+                    <i class="fa-brands fa-html5 fa-5x"></i>
+                    <i class="fa-brands fa-css3 fa-5x"></i>
+                    <i class="fa-brands fa-js fa-5x"></i>
+                    <i class="fa-brands fa-bootstrap fa-5x"></i>
+                    <i class="fa-brands fa-sass fa-5x"></i>
+                    <i class="fa-brands fa-git-alt fa-5x"></i>
+                    <i class="fa-brands fa-github fa-5x"></i>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="container py-5 mt-4">
+            <div class="text-center">
+                <h2>Contáctame</h2>
+                <p>Si estas interesado en mi trabajo, hablame aquí!</p>
+            </div>
+
+            <div class="row text-center py-4">
+                <div class="col-md-3 text-end">
+                    <a href="https://www.instagram.com/julianriedinger/" target="_BLANK">
+                        <i class="fa-brands fa-instagram fa-5x contact-links"></i>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="https://www.linkedin.com/in/julian-riedinger/" target="_BLANK">
+                        <i class="fa-brands fa-linkedin fa-5x contact-links"></i>
+                    </a>
+                </div>
+                <div class="col-md-3 ">
+                    <a href="https://api.whatsapp.com/send?phone=+5402914190015" target="_BLANK">
+                        <i class="fa-brands fa-whatsapp fa-5x contact-links"></i>
+                    </a>
+                </div>
+                <div class="col-md-3 text-start">
+                    <a href="https://github.com/JulianRiedinger7" target="_BLANK">
+                        <i class="fa-brands fa-github fa-5x contact-links"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
